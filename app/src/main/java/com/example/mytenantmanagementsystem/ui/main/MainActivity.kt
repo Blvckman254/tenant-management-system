@@ -1,20 +1,22 @@
-package com.example.mytenantmanagementsystem
+package com.example.mytenantmanagementsystem.ui.main
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.view.Menu
+import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
-import androidx.navigation.ui.setupActionBarWithNavController
-import com.example.mytenantmanagementsystem.databinding.ActivityMainBinding
-import android.view.Menu
-import android.content.Intent
-import android.view.MenuItem
 import androidx.navigation.ui.onNavDestinationSelected
+import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.example.mytenantmanagementsystem.R
+import com.example.mytenantmanagementsystem.databinding.ActivityMainBinding
 import com.example.mytenantmanagementsystem.databinding.NavHeaderBinding
+import com.example.mytenantmanagementsystem.ui.auth.LoginActivity
 
 class MainActivity : AppCompatActivity() {
 
