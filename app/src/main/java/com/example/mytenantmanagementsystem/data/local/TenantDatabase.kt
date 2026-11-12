@@ -1,5 +1,4 @@
-package data.local
-
+package com.example.mytenantmanagementsystem.data.local
 
 import android.content.Context
 import androidx.room.Database
