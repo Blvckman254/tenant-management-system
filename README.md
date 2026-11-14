@@ -26,7 +26,7 @@ The APK will be generated at `app/build/outputs/apk/debug/app-debug.apk`.
 ## Architecture & ViewModel / LiveData Implementation
 This project follows modern Android architecture principles using MVVM (Model-View-ViewModel), Jetpack Navigation, ViewBinding, and Jetpack Lifecycle components.
 
-### TenantViewModel & LiveData
+## TenantViewModel & LiveData
 `TenantViewModel` acts as the single source of truth for UI-related data across fragments. It encapsulates tenant data management and exposes LiveData streams (`tenants`, `tenantCountText`, `totalRentText`, and `allTenantsText`) powered by LiveData Transformations (`map`). This ensures that UI components (such as `DashboardFragment` and `ViewTenantsFragment`) observe reactive state updates safely across configuration changes, while preserving state separation through `activityViewModels()`.
 
 ---
@@ -39,5 +39,5 @@ This project follows modern Android architecture principles using MVVM (Model-Vi
 | Michael Udoye    | 191330           | [PR #2](https://github.com/Blvckman254/tenant-management-system/pull/2) |
 | Malcom Ntege     | 161826           | [PR #3](https://github.com/Blvckman254/tenant-management-system/pull/3) |
 | Scolastica Njeri | 193558           | [PR #4](https://github.com/Blvckman254/tenant-management-system/pull/4) |
-| Edward Omotii    | 190757           | [PR #5](https://github.com/Blvckman254/tenant-management-system/pull/5) |
-| Jeff Kandia      | 192683           | [PR #6](https://github.com/Blvckman254/tenant-management-system/pull/6) |
+| Jeff Kandia      | 192683           | [PR #5 & #6](https://github.com/Blvckman254/tenant-management-system/pull/6) |
+| Edward Omotii    | 190757           | [PR #7](https://github.com/Blvckman254/tenant-management-system/pull/7) |
