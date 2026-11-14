@@ -39,5 +39,5 @@ This project follows modern Android architecture principles using MVVM (Model-Vi
 | Michael Udoye    | 191330           | [PR #2](https://github.com/Blvckman254/tenant-management-system/pull/2) |
 | Malcom Ntege     | 161826           | [PR #3](https://github.com/Blvckman254/tenant-management-system/pull/3) |
 | Scolastica Njeri | 193558           | [PR #4](https://github.com/Blvckman254/tenant-management-system/pull/4) |
-| Edward Omotii    | 190757           | [PR #5](https://github.com/Blvckman254/tenant-management-system/pull/5) |
-| Jeff Kandia      | 192683           | [PR #6](https://github.com/Blvckman254/tenant-management-system/pull/6) |
+| Jeff Kandia      | 190757           | [PR #6](https://github.com/Blvckman254/tenant-management-system/pull/6) |
+| Edward Omotii    | 192683           | [PR #7](https://github.com/Blvckman254/tenant-management-system/pull/7) |
